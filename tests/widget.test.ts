@@ -2,6 +2,10 @@ import { expect, test } from "@playwright/test";
 
 test.beforeEach(async ({ page }) => {
   await page.goto("https://www.tidio.com/panel/register");
+  await page.evaluate(() => {
+    localStorage.setItem("inboxAb", "false"); //set localstorage to avoid feature A/B test
+  });
+  await page.reload();
 });
 
 export const getNewEmail = (): string =>
