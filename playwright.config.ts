@@ -1,6 +1,8 @@
 import type { PlaywrightTestConfig } from "@playwright/test";
 import { devices } from "@playwright/test";
 
+require("dotenv").config();
+
 /**
  * See https://playwright.dev/docs/test-configuration.
  */
@@ -23,7 +25,7 @@ const config: PlaywrightTestConfig = {
     actionTimeout: 0,
 
     /* Collect trace when retrying the failed test. See https://playwright.dev/docs/trace-viewer */
-    trace: "on-first-retry",
+    trace: "on",
   },
 
   /* Configure projects for major browsers */
