@@ -2,8 +2,10 @@
 
 ## Before you start
 
-Test is based on Playwright v1.22.2. You can find the full playwright documentation [here](https://playwright.dev/docs/intro). To build the project you will need [Node.js](https://nodejs.org/en/) and [Yarn](https://yarnpkg.com/getting-started/install).
+Test is based on Playwright v1.48.1. You can find the full playwright documentation [here](https://playwright.dev/docs/intro). To build the project you will need [Node.js](https://nodejs.org/en/) and [Yarn](https://yarnpkg.com/getting-started/install).
 In the file `widget.test.ts` are initial steps of the test.
+
+Before starting create `.env` file in the main directory and put shared values into. Without this, you will not be able to login to test project.
 
 ### Commands
 
@@ -25,6 +27,7 @@ Launches test non-headless with playwright inspector.
 
 - Please do not fork the repo, clone it and put it in your own github.
 - When possible use selectors which resembles how users interacts with the page.
+- Don't push the .env file to repository.
 - If you have any questions or need help please ask us.
 
 ## Part 1
