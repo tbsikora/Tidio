@@ -2,10 +2,10 @@
 
 ## Before you start
 
-Test is based on Playwright v1.48.1. You can find the full playwright documentation [here](https://playwright.dev/docs/intro). To build the project you will need [Node.js](https://nodejs.org/en/) and [Yarn](https://yarnpkg.com/getting-started/install).
-In the file `widget.test.ts` are initial steps of the test.
+The test is based on Playwright v1.48.1. You can find the full playwright documentation [here](https://playwright.dev/docs/intro). To build the project you will need [Node.js](https://nodejs.org/en/) and [Yarn](https://yarnpkg.com/getting-started/install).
+In the file `widget.test.ts` are the initial steps of the test.
 
-Before starting create `.env` file in the main directory and put shared values into. Without this, you will not be able to login to test project.
+Before starting, create an `.env` file in the main directory and put shared values into it. Without this, you will not be able to log in to the test project.
 
 ### Commands
 
@@ -13,7 +13,7 @@ In the project directory, you can run:
 
 #### `yarn`
 
-Installs a package and any packages that it depends. on
+Installs a package and any packages that it depends on.
 
 #### `yarn run test`
 
@@ -26,8 +26,8 @@ Launches test non-headless with playwright inspector.
 ## Rules
 
 - Please do not fork the repo, clone it and put it in your own github.
-- When possible use selectors which resembles how users interacts with the page.
-- Don't push the .env file to repository.
+- When possible use selectors which resemble how users interacts with the page.
+- Don't push the .env file to the repository.
 - If you have any questions or need help please ask us.
 
 ## Part 1
