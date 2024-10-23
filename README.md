@@ -15,6 +15,10 @@ In the project directory, you can run:
 
 Installs a package and any packages that it depends on.
 
+#### `yarn playwright install`
+
+Installs playwright default browsers.
+
 #### `yarn run test`
 
 Launches test headless.
