@@ -27,6 +27,24 @@ Launches test headless.
 
 Launches test non-headless with playwright inspector.
 
+### Using Docker
+
+Running tests in Docker ensures that all dependencies and environment configurations are consistent across different machines and environments. 
+
+Prerequisites: Docker must be installed on your machine.
+
+- Build the Docker Image
+
+Navigate to the project directory and build the Docker image with:
+
+#### `docker build -t widget-tests .`
+
+- Run Tests in Docker Container
+
+You in order to run the tests in a Docker container you need to pass the environment variables through the .env file.
+
+#### `docker run --rm --env-file .env widget-tests`
+
 ## Rules
 
 - Please do not fork the repo, clone it and put it in your own github.
